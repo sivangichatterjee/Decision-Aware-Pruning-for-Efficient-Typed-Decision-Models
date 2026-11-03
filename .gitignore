@@ -1,0 +1,11 @@
+.venv/
+.cache/
+models/
+vendor/
+results/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*

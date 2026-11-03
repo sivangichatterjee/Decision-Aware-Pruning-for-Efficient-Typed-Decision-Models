@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "project_root": "/Users/tiendeelin/Desktop/Penn_Courses/ESE_6800_Systems_for_Machine_Learning/Final_Project/Decision-Aware-Pruning-for-Efficient-Typed-Decision-Models",
+  "verified_at": "2026-11-03T23:09:51.652972+00:00",
+  "source": {
+    "revision": "14dbec4f71e194852c8d7b88ab36ef639493f400",
+    "url": "https://codeload.github.com/tinnel123666888/OmniJev/zip/14dbec4f71e194852c8d7b88ab36ef639493f400",
+    "archive_sha256": "b2e797f1d470afe0fb65d15ee54782da83c0b5ba01752033add7a1226f73559f",
+    "directory": "vendor/OmniJev",
+    "files": [
+      {
+        "path": ".gitignore",
+        "size_bytes": 52,
+        "sha256": "257ca740d5d6863ce6a15677423888ff1e076d9b64cc0fbf9a99977abfa67332"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "size_bytes": 9018,
+        "sha256": "d3190077f459054957fafa448a4bd0fb0a90de7ff4e99b3217032f98e1bbe1ab"
+      },
+      {
+        "path": "LICENSE",
+        "size_bytes": 11720,
+        "sha256": "c35d34d2a8cc22ca043ecaf7989586960c9305d45a9ec81ff839b736a3ffbd21"
+      },
+      {
+        "path": "README.md",
+        "size_bytes": 22617,
+        "sha256": "d83fda3a010f5f95ffd09a8cc001de33abca523df2fb998f3bf478ed2a824fb9"
+      },
+      {
+        "path": "README_zh.md",
+        "size_bytes": 21846,
+        "sha256": "e6e432f56cce7514b949c9ad9e03676595daabd71a18ccaa17045d6842a5bfe0"
+      },
+      {
+        "path": "bench/speed_bench.py",
+        "size_bytes": 4363,
+        "sha256": "6260d327ccccff6927c8cd3944d480ad41b5da4fd743ac82690d89eeaeb243ee"
+      },
+      {
+        "path": "bench/summarize_v11.py",
+        "size_bytes": 1260,
+        "sha256": "a0380db13af932dd4cb22eb587f36a7e129270f5ca672a0f6b0a95d0d6c804ff"
+      },
+      {
+        "path": "docs/aokvqa_label_audit_v11.json",
+        "size_bytes": 1017,
+        "sha256": "397641af11793fe4e24ca73000cafda550f2c82d2bc822e6bdc7555bb42dad29"
+      },
+      {
+        "path": "docs/dataset_scores_v11.json",
+        "size_bytes": 308203,
+        "sha256": "5465b24d61b3fab4c3505689747434021c8833c425a95f55dc64db56e9b6896a"
+      },
+      {
+        "path": "docs/dataset_scores_v11.md",
+        "size_bytes": 32932,
+        "sha256": "808474128f7465ed3589d3bd73310a304e7bc78415294ae1a5980c12a90d785e"
+      },
+      {
+        "path": "docs/demos_v11.md",
+        "size_bytes": 6084,
+        "sha256": "35bf5e5855e2fef67424df6c5681febecb9a66e3fde283a92e82ce429800c192"
+      },
+      {
+        "path": "docs/demos_v11_manifest.json",
+        "size_bytes": 4300,
+        "sha256": "0a95c76457393248b40eead92400faebf12681300fcfa9c3d9305b939e4983a4"
+      },
+      {
+        "path": "docs/media/audio.gif",
+        "size_bytes": 224359,
+        "sha256": "b191435993c0c3d90259c2e604cfad28433ea61c7de39a49c957d63ee5b5858c"
+      },
+      {
+        "path": "docs/media/audio.mp4",
+        "size_bytes": 3214799,
+        "sha256": "56ea6cd3b9ebc9b2b0e7d379fbb41f43dc19de9d2300703323ca9e39b1f62c8b"
+      },
+      {
+        "path": "docs/media/chess_game.gif",
+        "size_bytes": 238611,
+        "sha256": "74df6161ac3e5ac9b55f847dae9fdc801ed8314b57498d4f5cd7baf9a22194cc"
+      },
+      {
+        "path": "docs/media/cua_trace.gif",
+        "size_bytes": 308440,
+        "sha256": "88680cf1a2f9b52e8dc69e2f6c71976730cb22e3ac5b30b4f80f7200e972f1fa"
+      },
+      {
+        "path": "docs/media/events.gif",
+        "size_bytes": 626897,
+        "sha256": "600d137a8d4785a50891921483cddd140eb7c3f0b22045790242a44dba36a5fc"
+      },
+      {
+        "path": "docs/media/game.gif",
+        "size_bytes": 639558,
+        "sha256": "690cf5a4b468d5b45449f1a948ddbc97047bac0a9cd912e88c1d936ca47e49fe"
+      },
+      {
+        "path": "docs/media/gesture.gif",
+        "size_bytes": 593864,
+        "sha256": "cd01ff3151489e1735924d0d2d02223e73012ce8defaef16174e63c1cd49fcd7"
+      },
+      {
+        "path": "docs/media/hazard.gif",
+        "size_bytes": 835120,
+        "sha256": "216b74fa4a973026deb6e9a6c12e4b97ba07bfc9bcb15e5d849a44a7bd376ace"
+      },
+      {
+        "path": "docs/media/navigation.gif",
+        "size_bytes": 252533,
+        "sha256": "6dfcb9101cc9d11be5c436094a3e4890ee7a641e5012f5e58a55590976d1b1f2"
+      },
+      {
+        "path": "docs/media/pointing.gif",
+        "size_bytes": 303497,
+        "sha256": "bb3b358ad6d5344eb7209dd73a9c39d5011fb0f9a94d981683c5e5082a9f5df4"
+      },
+      {
+        "path": "docs/media/robot_monitor.gif",
+        "size_bytes": 459623,
+        "sha256": "0823878ba119fc2fdfb978d8fb2c4839bc2fef99b6ed0477a165f0a79dccc97d"
+      },
+      {
+        "path": "docs/media/robot_task.gif",
+        "size_bytes": 661440,
+        "sha256": "8c4ff5070d14edfaf1f4b24bb90b15ec96139d40d51d9637d940c86cbde561bb"
+      },
+      {
+        "path": "docs/media/robots.gif",
+        "size_bytes": 590298,
+        "sha256": "5c7b6ea02dcd645a235cc8c0655f0c819ef12640ab6d19e1cf526405deb51024"
+      },
+      {
+        "path": "docs/media/stopwatch.gif",
+        "size_bytes": 300974,
+        "sha256": "cd8d60e1531ba87af6706b896e89781ccc8a6f95462238dff3d902cbeab72e0d"
+      },
+      {
+        "path": "docs/media/v11/arcade.gif",
+        "size_bytes": 794087,
+        "sha256": "4eb7c14850e05ee237478e0ade5bf4e670ae1009b547ffa1ea2f51a6e8de0798"
+      },
+      {
+        "path": "docs/media/v11/arcade.jpg",
+        "size_bytes": 144030,
+        "sha256": "cda0d77c239495662bfb492a9216cb19ada5f6236ab21d3d06c73dfe2b1bbb0f"
+      },
+      {
+        "path": "docs/media/v11/arcade.mp4",
+        "size_bytes": 726233,
+        "sha256": "5791fb61238ef9e741a35fe64f931aae477b6fe5cc9a2fe2d7f3cf348435c82e"
+      },
+      {
+        "path": "docs/media/v11/board.gif",
+        "size_bytes": 393606,
+        "sha256": "1250d2e5188488ab27bacd2899da32c6462e5f0a166c9db0f99daa4afdcd663e"
+      },
+      {
+        "path": "docs/media/v11/board.jpg",
+        "size_bytes": 187341,
+        "sha256": "d40f00ea765b335ef87cc2f8a46d0c8e4a48e70a37f1ae5826c11d5a0745f27b"
+      },
+      {
+        "path": "docs/media/v11/board.mp4",
+        "size_bytes": 364689,
+        "sha256": "4063f280304a12d90abbed882995543d776d365f4095f6e5eaf112018f0710d0"
+      },
+      {
+        "path": "docs/media/v11/phone.gif",
+        "size_bytes": 754523,
+        "sha256": "cdfdd0710f567aeacd3456854e5e5233e028d418c9e0b4b24bfda3a3816ece43"
+      },
+      {
+        "path": "docs/media/v11/phone.jpg",
+        "size_bytes": 163457,
+        "sha256": "a688ab0ac8d5326f6f67a6100c1f44e880c92302860d73acfa8d4f6e6293a223"
+      },
+      {
+        "path": "docs/media/v11/phone.mp4",
+        "size_bytes": 966919,
+        "sha256": "2dbadce52d3e16aaaf2fd0f7719b7ec4142c951f852fb2928c65f288e473d8a1"
+      },
+      {
+        "path": "docs/media/v11/robot.gif",
+        "size_bytes": 1139549,
+        "sha256": "564deb4d37fb60df08e3f01036a5e305e6b603a1b056c67f9abfb815abccd347"
+      },
+      {
+        "path": "docs/media/v11/robot.jpg",
+        "size_bytes": 207046,
+        "sha256": "b815bdf76e1f721f959ccbbf9f9452c7d835e4fab2fcb014e507bf181a78d4fc"
+      },
+      {
+        "path": "docs/media/v11/robot.mp4",
+        "size_bytes": 1073126,
+        "sha256": "70d0ebca6c971371f962745b75473b92bbbd9bc5fa647209132964c4f310e6de"
+      },
+      {
+        "path": "docs/media/v11/showreel.mp4",
+        "size_bytes": 1629232,
+        "sha256": "61411a74557924e61d23e66e3a2bb55e61aba0184d57f549717063892b317c90"
+      },
+      {
+        "path": "docs/media/v11/snake.gif",
+        "size_bytes": 608288,
+        "sha256": "a12778d7e2a9dc8a1af1cb808a39cb13394b426a54950c6df293c6cfc529b3c8"
+      },
+      {
+        "path": "docs/media/v11/snake.jpg",
+        "size_bytes": 145607,
+        "sha256": "df81db2f488ae2ae90bbe55eab44547e9e67df6cb7cd59bcd2269dc8bf1c8ab4"
+      },
+      {
+        "path": "docs/media/v11/snake.mp4",
+        "size_bytes": 431606,
+        "sha256": "05d68bea5a69065a79c398d0548e0de5efee54359e9bbca21dc308cb5bb3d7b6"
+      },
+      {
+        "path": "docs/media/v11/video.gif",
+        "size_bytes": 733102,
+        "sha256": "faa57b49a585e7e9f2cb2186c00f25f6a0d4efb6ebd58cf28022f8f9d4fee332"
+      },
+      {
+        "path": "docs/media/v11/video.jpg",
+        "size_bytes": 205581,
+        "sha256": "e4b44a1f51aa9c3e8805568352ebeca4c557cb6ccc07e1cd11b693803e9f71b9"
+      },
+      {
+        "path": "docs/media/v11/video.mp4",
+        "size_bytes": 708127,
+        "sha256": "2719c7256b82c5faedded11dcd5746f6afe0437bf1d8bb6e57ea1e748801f1ff"
+      },
+      {
+        "path": "docs/media/v11/web.gif",
+        "size_bytes": 1078271,
+        "sha256": "32694190aa3a4530a4624414110e7705a9b508d1882a5702218ed5e087f2e957"
+      },
+      {
+        "path": "docs/media/v11/web.jpg",
+        "size_bytes": 218435,
+        "sha256": "85859dd99faa2f6336a28dd34ce185c72c79c5f3d5b2758e87dd5dc7fe49eeb7"
+      },
+      {
+        "path": "docs/media/v11/web.mp4",
+        "size_bytes": 1128770,
+        "sha256": "a3bd6f4ea9efd89e140e850db866fc4a1fee55e04e8b3613dffe8930b93b4dcb"
+      },
+      {
+        "path": "docs/media/web_task.gif",
+        "size_bytes": 740550,
+        "sha256": "9bec24a7c85f37654cdbe2313d2b4fa7b084ea920c1e2ed122b84fa3a24bb714"
+      },
+      {
+        "path": "docs/release_v11.json",
+        "size_bytes": 9754,
+        "sha256": "cb6791f3ef7c78dd71598a0c1d6a763702769c8d84eac595fed772677660f7ca"
+      },
+      {
+        "path": "docs/results_v11.json",
+        "size_bytes": 1396232,
+        "sha256": "feccbb8be7c5f701eb96098b4132b55da28794d3ba5a26937acd9abc3c0d24a1"
+      },
+      {
+        "path": "docs/results_v11_summary.json",
+        "size_bytes": 2787,
+        "sha256": "4c4571a4510256da89dc4b00a5c2caafee99999ec8f11e319d9d74c26d96fb44"
+      },
+      {
+        "path": "docs/results_v11_zh.md",
+        "size_bytes": 80010,
+        "sha256": "1eb9462f5729ae4b6245ee3afbde28fe6fc2ec18138c562d7b6c7b486f11f377"
+      },
+      {
+        "path": "docs/scorecard_v05.md",
+        "size_bytes": 7673,
+        "sha256": "aa1dfb287a442f56f7a08549fa8ae61a32c50cf617af6364aaf5c695c2c3aa40"
+      },
+      {
+        "path": "docs/v12_development.md",
+        "size_bytes": 1729,
+        "sha256": "a51b004b7c90bd8f107031a2d4ab94bacbbbe231e5fb09d0563f8b24f56c1b56"
+      },
+      {
+        "path": "docs/v12_general_regression_stage1.json",
+        "size_bytes": 2637,
+        "sha256": "3d3f3a0407b46166bb0d0bd645d5a1ad95f4e1d7b46fa9381f747002454d98b6"
+      },
+      {
+        "path": "mso/__init__.py",
+        "size_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "mso/action.py",
+        "size_bytes": 7671,
+        "sha256": "4d657b7588a5f93f0c698c47cd4be4c163beb86f54429ce9fb566f9a65c6e3c5"
+      },
+      {
+        "path": "mso/action_infer.py",
+        "size_bytes": 4810,
+        "sha256": "1c4473a69c96a141036c205d970791b550d3ad1a578ab49a482aee5722c2b6f0"
+      },
+      {
+        "path": "mso/branch.py",
+        "size_bytes": 11402,
+        "sha256": "13595edac2edde05a82a7a89479b01c8ac3acd20fd6a1f1ea60bed9b44d3ca18"
+      },
+      {
+        "path": "mso/fast_kernels.py",
+        "size_bytes": 2584,
+        "sha256": "ead8979cbd11326e1224400433422ce34ddf8f711745157307b0f5354f0e4c5f"
+      },
+      {
+        "path": "mso/head.py",
+        "size_bytes": 7299,
+        "sha256": "7f3674537d616afe177be04f1842c3479ad4f8945644d5915fde43d533b13eb4"
+      },
+      {
+        "path": "mso/infer.py",
+        "size_bytes": 23511,
+        "sha256": "03d047b7ffa73ba5c3f142ba7a5881c20d07f73c4f0b3ccacc7ac10554b209bf"
+      },
+      {
+        "path": "mso/panels.py",
+        "size_bytes": 3504,
+        "sha256": "45cba683f3587b6f413f025a087fe3e2165465fc02a0b02e2b8f5b7413466cda"
+      },
+      {
+        "path": "mso/records.py",
+        "size_bytes": 11236,
+        "sha256": "f88194cedc0888dd8bbbad9f4a5d20aba5ae70b6e18f88074dd15b725a620675"
+      },
+      {
+        "path": "mso/templates.py",
+        "size_bytes": 10513,
+        "sha256": "0d116f5ac08d85de59a905b5bf92fb25b2a86dcd26c4e219e3f3c3f97c1e7afc"
+      },
+      {
+        "path": "mso/v04.py",
+        "size_bytes": 2803,
+        "sha256": "6179e64cd17193d3e909c20078f203a57319d5a505a77848656e457c90fb9c64"
+      },
+      {
+        "path": "mso/video.py",
+        "size_bytes": 3555,
+        "sha256": "3908261d64aeb747b5d29820c8acf7327b88c428bfd3e30849e2f9ebd74cb534"
+      },
+      {
+        "path": "requirements.txt",
+        "size_bytes": 150,
+        "sha256": "814627a4aa066c965590e0de43169fc9d024b5d52210b63a1f0af633fb57290e"
+      },
+      {
+        "path": "tests/test_action.py",
+        "size_bytes": 2351,
+        "sha256": "c1743aad737620865d23c8d22d2832cbf02026b5b12acc836414acd3f051dbaa"
+      },
+      {
+        "path": "tests/test_panels.py",
+        "size_bytes": 1403,
+        "sha256": "4e1ccd6e5ffd2efbc97c9347be76673148ef12b7452e2207192ba6c5ea00268e"
+      }
+    ]
+  },
+  "models": {
+    "adapter": {
+      "repo_id": "tinnel123/OmniJev-0.8B",
+      "revision": "3c9aa908f3c9d3f3ccf16bb281ee705d9e98252f",
+      "directory": "models/OmniJev-0.8B",
+      "files": [
+        {
+          "path": "LICENSE",
+          "size_bytes": 11720,
+          "sha256": "c35d34d2a8cc22ca043ecaf7989586960c9305d45a9ec81ff839b736a3ffbd21"
+        },
+        {
+          "path": "README.md",
+          "size_bytes": 6686,
+          "sha256": "d78e3452fad23d620b203cb18b7ed914e62b980012f3db6a74fb743b73d4afd1"
+        },
+        {
+          "path": "adapter_config.json",
+          "size_bytes": 1271,
+          "sha256": "8172394852330b78638fe6ead125917b9e4ec6bb2d0cdf03fc711c38ac529d44"
+        },
+        {
+          "path": "adapter_model.safetensors",
+          "size_bytes": 81833800,
+          "sha256": "fecb22639ad3df3a0db3f17f096ae180a56120ef895f4ad18b4422e51727ad71"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size_bytes": 7755,
+          "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80"
+        },
+        {
+          "path": "head.pt",
+          "size_bytes": 16835883,
+          "sha256": "d20f53b0c9458e01870e45154ae34ec2e313f79dd32f4980e5ccecd30354cfd7"
+        },
+        {
+          "path": "head_meta.json",
+          "size_bytes": 1278,
+          "sha256": "85cc4581a2cc1fb7d9382bd39f71c045485cc74ce59677eccce9cb4bf0ab14f5"
+        },
+        {
+          "path": "new_tok_emb.pt",
+          "size_bytes": 9797,
+          "sha256": "509edb2d8a1685da0ab796d7d16dce279232071c75f0ac4f4434d23f73617446"
+        },
+        {
+          "path": "ord.pt",
+          "size_bytes": 4205653,
+          "sha256": "714697558f991f5e6cb4aacbc516d743626b17d029cd73bf386f9caa5859ba6c"
+        },
+        {
+          "path": "processor_config.json",
+          "size_bytes": 1189,
+          "sha256": "bcbca4244c9b61672113167b05f159dc8a33741661ef7b1fc72bf6812a770bcc"
+        },
+        {
+          "path": "release_manifest.json",
+          "size_bytes": 2244,
+          "sha256": "72e98c977a1f79438c5c268024c9ac8e163cb67a979b222bd3e540e66878da5c"
+        },
+        {
+          "path": "tokenizer.json",
+          "size_bytes": 19989712,
+          "sha256": "2f838eae798ef282bfcbbeb01645e728680e9b8b493ef3e0c63ff2d9ed28a8c4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size_bytes": 1226,
+          "sha256": "feaa62c900dd7ec96738aa38df18eef2fac49269a987947a22f157cd70fe7bc3"
+        }
+      ]
+    },
+    "base": {
+      "repo_id": "Qwen/Qwen3.5-0.8B",
+      "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+      "directory": "models/Qwen3.5-0.8B",
+      "files": [
+        {
+          "path": "LICENSE",
+          "size_bytes": 11544,
+          "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a"
+        },
+        {
+          "path": "README.md",
+          "size_bytes": 61705,
+          "sha256": "87a163af54f32fa608a0f8d3ac67945c53dd2b4a7c96740b3d7fdc28e8458864"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size_bytes": 7755,
+          "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80"
+        },
+        {
+          "path": "config.json",
+          "size_bytes": 2907,
+          "sha256": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204"
+        },
+        {
+          "path": "merges.txt",
+          "size_bytes": 3353259,
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+        },
+        {
+          "path": "model.safetensors-00001-of-00001.safetensors",
+          "size_bytes": 1746942600,
+          "sha256": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size_bytes": 50900,
+          "sha256": "d8a08838a613b025eb7952ed9db11696213e57e76a375661ef5c12f9dd5dcf4e"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size_bytes": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+        },
+        {
+          "path": "tokenizer.json",
+          "size_bytes": 12807982,
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size_bytes": 16709,
+          "sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size_bytes": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+        },
+        {
+          "path": "vocab.json",
+          "size_bytes": 6722759,
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+        }
+      ]
+    }
+  }
+}
